@@ -73,7 +73,7 @@
 		  ]// （缩写）相当于 routes: routes
 		})
 
-		//创建全局的router导航钩子
+		//创建全局的router导航钩子。
 		router.beforeEach((to, from, next) => {
 		  if(to.path === '/user/foo/posts'){
 		  	console.log('/user/foo/posts');
